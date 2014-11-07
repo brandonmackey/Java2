@@ -1,0 +1,148 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/fragment_container"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="horizontal"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context=".MainActivity">
+
+
+
+
+    <!--<EditText-->
+        <!--android:layout_width="fill_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:id="@+id/etMovieSearch"-->
+        <!--android:hint="@string/editText1"-->
+        <!--android:textColorHint="#555"-->
+        <!--android:layout_below="@+id/tvTitle"-->
+        <!--android:layout_alignParentLeft="true"-->
+        <!--android:layout_alignParentStart="true"-->
+        <!--android:layout_marginTop="20dp"-->
+        <!--android:layout_marginBottom="10dp"-->
+        <!--android:inputType="text" />-->
+
+    <!--<TextView-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:text="@string/textView1"-->
+        <!--android:id="@+id/tvTitle"-->
+        <!--android:textSize="20dp"-->
+        <!--android:layout_alignParentTop="true"-->
+        <!--android:layout_alignParentLeft="true"-->
+        <!--android:layout_alignParentStart="true" />-->
+
+    <!--<Button-->
+        <!--style="?android:attr/buttonStyleSmall"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:text="@string/button2"-->
+        <!--android:id="@+id/btnSearch"-->
+        <!--android:layout_toRightOf="@+id/tvTitle"-->
+        <!--android:layout_toEndOf="@+id/tvTitle"-->
+        <!--android:layout_below="@+id/etMovieSearch"-->
+        <!--android:layout_alignRight="@+id/etMovieSearch"-->
+        <!--android:layout_alignEnd="@+id/etMovieSearch" />-->
+
+    <!--<ProgressBar-->
+        <!--style="?android:attr/progressBarStyleHorizontal"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:id="@+id/progressBar"-->
+        <!--android:indeterminate="true"-->
+        <!--android:layout_centerHorizontal="true"-->
+        <!--android:layout_alignBottom="@+id/btnSearch"-->
+        <!--android:layout_below="@+id/btnSearch"-->
+        <!--android:layout_marginTop="30dp"/>-->
+
+    <!--<TextView-->
+        <!--android:layout_width="fill_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:id="@+id/tvDetailView3"-->
+        <!--android:textSize="20dp"-->
+        <!--android:hint="@string/textView3"-->
+        <!--android:textColorHint="#555"-->
+        <!--android:layout_centerVertical="true"-->
+        <!--android:layout_alignParentRight="true"-->
+        <!--android:layout_alignParentEnd="true" />-->
+
+    <!--<TextView-->
+        <!--android:layout_width="fill_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:id="@+id/tvDetailView"-->
+        <!--android:textSize="25dp"-->
+        <!--android:layout_below="@+id/tvDetailView3"-->
+        <!--android:layout_alignParentLeft="true"-->
+        <!--android:layout_alignParentStart="true" />-->
+
+    <!--<TextView-->
+        <!--android:layout_width="fill_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:id="@+id/tvDetailView4"-->
+        <!--android:textSize="20dp"-->
+        <!--android:hint="@string/textView2"-->
+        <!--android:textColorHint="#555"-->
+        <!--android:layout_below="@+id/tvDetailView"-->
+        <!--android:layout_alignParentLeft="true"-->
+        <!--android:layout_alignParentStart="true" />-->
+
+    <!--<TextView-->
+        <!--android:layout_width="fill_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:id="@+id/tvDetailView2"-->
+        <!--android:textSize="25dp"-->
+        <!--android:layout_below="@+id/tvDetailView4"-->
+        <!--android:layout_alignParentLeft="true"-->
+        <!--android:layout_alignParentStart="true" />-->
+
+    <!--<TextView-->
+        <!--android:layout_width="fill_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:id="@+id/tvDetailView5"-->
+        <!--android:textSize="20dp"-->
+        <!--android:hint="@string/textView4"-->
+        <!--android:textColorHint="#555"-->
+        <!--android:layout_below="@+id/tvDetailView2"-->
+        <!--android:layout_alignParentLeft="true"-->
+        <!--android:layout_alignParentStart="true" />-->
+
+    <!--<TextView-->
+        <!--android:layout_width="fill_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:id="@+id/tvDetailView6"-->
+        <!--android:textSize="25dp"-->
+        <!--android:layout_below="@+id/tvDetailView5"-->
+        <!--android:layout_alignParentRight="true"-->
+        <!--android:layout_alignParentEnd="true" />-->
+
+    <!--<TextView-->
+        <!--android:layout_width="fill_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:id="@+id/tvDetailView7"-->
+        <!--android:textSize="20dp"-->
+        <!--android:hint="@string/textView5"-->
+        <!--android:textColorHint="#555"-->
+        <!--android:layout_below="@+id/tvDetailView6"-->
+        <!--android:layout_alignParentLeft="true"-->
+        <!--android:layout_alignParentStart="true" />-->
+
+    <!--<TextView-->
+        <!--android:layout_width="fill_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:id="@+id/tvDetailView8"-->
+        <!--android:textSize="25dp"-->
+        <!--android:layout_below="@+id/tvDetailView7"-->
+        <!--android:layout_alignParentRight="true"-->
+        <!--android:layout_alignParentEnd="true" />-->
+
+
+
+
+
+
+
+</LinearLayout>

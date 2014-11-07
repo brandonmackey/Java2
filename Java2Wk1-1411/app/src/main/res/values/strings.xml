@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Java2 Wk1</string>
+    <string name="textView1">Enter Movie Title:</string>
+    <string name="editText1">Example: Scary Movie 2</string>
+    <string name="textView3">Movie Rating:</string>
+    <string name="textView2">Movie Length:</string>
+    <string name="textView4">Critics Rating:</string>
+    <string name="textView5">Main Actor:</string>
+    <string name="button">Clear</string>
+    <string name="button2">Search</string>
+
+    <string-array name="android_os_flavours">
+        <item>Android 1.1 Banana Bread(API level 2)</item>
+        <item>Android 1.5 Cupcake (API level 3)</item>
+        <item>Android 1.6 Donut (API level 4)</item>
+        <item>Android 2.0 Eclair (API level 5)</item>
+        <item>Android 2.0.1 Eclair (API level 6)</item>
+        <item>Android 2.1 Eclair (API level 7)</item>
+        <item>Android 2.2–2.2.3 Froyo (API level 8)</item>
+        <item>Android 2.3–2.3.2 Gingerbread (API level 9)</item>
+        <item>Android 2.3.3–2.3.7 Gingerbread (API level 10)</item>
+        <item>Android 3.0 Honeycomb (API level 11)</item>
+        <item>Android 3.1 Honeycomb (API level 12)</item>
+        <item>Android 3.2 Honeycomb (API level 13)</item>
+        <item>Android 4.0–4.0.2 Ice Cream Sandwich (API level 14)</item>
+        <item>Android 4.0.3–4.0.4 Ice Cream Sandwich (API level 15)</item>
+        <item>Android 4.1 Jelly Bean (API level 16)</item>
+        <item>Android 4.2 Jelly Bean (API level 17)</item>
+        <item>Android 4.3 Jelly Bean (API level 18)</item>
+        <item>Android 4.4 KitKat (API level 19)</item>
+    </string-array>
+
+</resources>
