@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Java2Wk1Term1504</string>
+    <string name="movTitleHint">Movie Title:</string>
+    <string name="etHint">Example: Scary Movie 2</string>
+    <string name="movRating">Movie Rating:</string>
+    <string name="movLength">Movie Length:</string>
+    <string name="movCRating">Critics Rating:</string>
+    <string name="movActor">Main Actor:</string>
+    <string name="searchButton">Search</string>
+
+</resources>
